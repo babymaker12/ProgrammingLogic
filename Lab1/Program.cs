@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        string name = "Isaias";
+        Console.WriteLine("Hello, "+ name +"!");
+        Console.WriteLine("Welcome to IT-1050");
     }
-    
+}
