@@ -54,20 +54,20 @@ class Program
     {
         // Problem 1: Create a Book object with the default constructor
         Book book1 = new Book();
-        Console.WriteLine(book1.GetTitle());  // Output: Unknown Title
+        Console.WriteLine(book1.GetTitle());  
 
         // Change the title using SetTitle()
         book1.SetTitle("C# Fundamentals");
-        Console.WriteLine(book1.GetTitle());  // Output: C# Fundamentals
+        Console.WriteLine(book1.GetTitle());  
 
         // Problem 2: Create a Book object with the parameterized constructor
         Book book2 = new Book("Advanced C#");
-        Console.WriteLine(book2.GetTitle());  // Output: Advanced C#
+        Console.WriteLine(book2.GetTitle());  
 
         // Problem 3: Create a Book object with the overloaded constructor
         Book book3 = new Book("Losing", "Jacob Leonardo");
-        Console.WriteLine("Title: " + book3.GetTitle());  // Output: Advanced C#
-        Console.WriteLine("Author: " + book3.GetAuthor());  // Output: John Doe
+        Console.WriteLine("Title: " + book3.GetTitle());  
+        Console.WriteLine("Author: " + book3.GetAuthor());  
 
         // Problem 4: Create a Book object and update title and author
         Book book4 = new Book("Learning C#");
@@ -75,7 +75,7 @@ class Program
         book4.SetAuthor("Isaias Leonardo");
 
         // Print updated title and author
-        Console.WriteLine("Title: " + book4.GetTitle());  // Output: Mastering C#
-        Console.WriteLine("Author: " + book4.GetAuthor());  // Output: Jane Smith
+        Console.WriteLine("Title: " + book4.GetTitle());  
+        Console.WriteLine("Author: " + book4.GetAuthor());  
     }
 }
